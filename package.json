@@ -1,5 +1,5 @@
 {
-  "name": "@nuxtjs/sayburgh-feed",
+  "name": "sayburgh-feed",
   "version": "1.0.0",
   "description": "Feed module for RSS",
   "keywords": [
