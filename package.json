@@ -1,0 +1,49 @@
+{
+  "name": "@nuxtjs/sayburgh-feed",
+  "version": "1.0.0",
+  "description": "Feed module for RSS",
+  "keywords": [
+    "nuxtjs",
+    "nuxt",
+    "feed",
+    "blog",
+    "rss",
+    "atom",
+    "json"
+  ],
+  "license": "MIT",
+  "contributors": [
+    "Hasan Rothi <hasantechnologist@gmail.com>"
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/HasanRothi/sayburgh-feed-module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "nuxt test/fixture",
+    "generate": "nuxt generate test/fixture",
+    "lint": "eslint --ext .js,.vue lib test",
+    "test": "npm lint && jest",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "async-cache": "^1.1.0",
+    "consola": "^2.12.1",
+    "sayburgh-rss": "^1.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "eslint": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  }
+}
