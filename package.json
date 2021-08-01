@@ -1,6 +1,6 @@
 {
   "name": "sayburgh-feed",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Feed module for RSS",
   "keywords": [
     "nuxtjs",
@@ -32,6 +32,7 @@
   ],
   "dependencies": {
     "async-cache": "^1.1.0",
+    "axios": "^0.21.1",
     "consola": "^2.12.1",
     "sayburgh-rss": "^1.0.0"
   },
