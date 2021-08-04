@@ -1,6 +1,6 @@
 {
   "name": "sayburgh-feed",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Feed module for RSS",
   "keywords": [
     "nuxtjs",
